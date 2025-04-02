@@ -1,0 +1,41 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+/* Buttons */
+button {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Form Inputs */
+input {
+  border: 1px solid #cbd5e1;
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0px 0px 5px rgba(37, 99, 235, 0.5);
+}
